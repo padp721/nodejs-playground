@@ -1,0 +1,16 @@
+{
+  "name": "basic-express",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Basic express app",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "padp721 <anggadp91@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
