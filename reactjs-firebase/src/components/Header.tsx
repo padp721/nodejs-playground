@@ -26,7 +26,7 @@ const items: MenuItem[] = [
 
 export default function Header() {
     const navigate = useNavigate()
-    const [current, setCurrent] = useState('mail');
+    const [current, setCurrent] = useState('/');
 
     const onClick: MenuProps['onClick'] = (e) => {
         setCurrent(e.key);
